@@ -7,8 +7,8 @@ Check our [paper](https://arxiv.org/pdf/1909.12482.pdf) for more details.
 
 ## Prerequisites
 
-* Python 3.5
-* Pytorch 0.4.1
+* Python 3.6
+* Tensorflow 1.3.0
 * CUDA 8.0
 
 ## Installation
@@ -20,7 +20,7 @@ Please refer to [OnAVOS](https://github.com/Stocastico/OnAVOS) to install the en
 Train ARG with ground-truth annotation:
 
 ```bash
-python ./tools/train.py
+python ./train.py configs/DAVIS16_online
 ```
 
 ## Evaluation
@@ -28,7 +28,7 @@ python ./tools/train.py
 Evaluate ARG with ground-truth annotation:
 
 ```bash
-python ./tools/eval.py
+python ./eval.py configs/DAVIS16_online
 ```
 
 
