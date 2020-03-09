@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is Pytorch implementation of [Adaptive ROI Generation for Video Object Segmentation Using Reinforcement Learning]
+This repository is Tensorflow implementation of [Adaptive ROI Generation for Video Object Segmentation Using Reinforcement Learning]
 Check our [paper](https://arxiv.org/pdf/1909.12482.pdf) for more details.
 
 ## Prerequisites
@@ -13,8 +13,7 @@ Check our [paper](https://arxiv.org/pdf/1909.12482.pdf) for more details.
 
 ## Installation
 
-Please refer to [OnAVOS](https://github.com/lichengunc/MAttNet) to install [mask-faster-rcnn](https://github.com/lichengunc/mask-faster-rcnn), [REFER](https://github.com/lichengunc/refer) and [refer-parser2](https://github.com/lichengunc/refer-parser2).
-Follow Step 1 & 2 in Training to prepare the data and features.
+Please refer to [OnAVOS](https://github.com/Stocastico/OnAVOS) to install the environment of the benchmark method.
 
 ## Training
 
@@ -45,4 +44,4 @@ CUDA_VISIBLE_DEVICES=${GPU_ID} python ./tools/eval.py --dataset ${DATASET} --spl
 
 ## Acknowledgement
 
-Thanks for the work of [Licheng Yu](http://cs.unc.edu/~licheng/). Our code is based on the implementation of [OnAVOS](https://github.com/lichengunc/MAttNet).
+Thanks for the work of [Voigtlaender Paul](https://www.vision.rwth-aachen.de/person/197/). Our code is based on the implementation of [OnAVOS](https://github.com/Stocastico/OnAVOS).
