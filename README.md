@@ -20,7 +20,7 @@ Please refer to [OnAVOS](https://github.com/Stocastico/OnAVOS) to install the en
 Train ARG with ground-truth annotation:
 
 ```bash
-CUDA_VISIBLE_DEVICES=${GPU_ID} python ./tools/train.py --dataset ${DATASET} --splitBy ${SPLITBY} --exp_id ${EXP_ID}
+python ./tools/train.py
 ```
 
 ## Evaluation
@@ -28,7 +28,7 @@ CUDA_VISIBLE_DEVICES=${GPU_ID} python ./tools/train.py --dataset ${DATASET} --sp
 Evaluate ARG with ground-truth annotation:
 
 ```bash
-CUDA_VISIBLE_DEVICES=${GPU_ID} python ./tools/eval.py --dataset ${DATASET} --splitBy ${SPLITBY} --split ${SPLIT} --id ${EXP_ID}
+python ./tools/eval.py
 ```
 
 
