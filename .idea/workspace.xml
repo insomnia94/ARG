@@ -1,83 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45515dd5-71e7-43e8-9962-142bd6c7eae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/OnAVOS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forwarding/Forwarder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forwarding/OneshotForwarder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forwarding/OnlineAdaptingForwarder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forwarding/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Measures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkLayers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkOutputLayers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util_Network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caffe_classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/DAVIS16_oneshot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/DAVIS16_online" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/DAVIS17_online" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/DAVIS17_train" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/custom_oneshot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/custom_up_oneshot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/pascalVOC_up7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crf/crf_davis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crf/crf_youtube.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Augmentors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Custom/Custom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Custom/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/DAVIS/DAVIS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/DAVIS/DAVIS2017_oneshot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/DAVIS/DAVIS_oneshot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/DAVIS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/FeedDataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Forward.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/PascalVOC/PascalVOC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/PascalVOC/PascalVOC_instance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/PascalVOC/PascalVOC_objectness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/PascalVOC/PascalVOC_semantic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/PascalVOC/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/PascalVOC/train.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/PascalVOC/val.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Segtrackv2/Segtrackv2_oneshot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Segtrackv2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/Batch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/Input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/Normalization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/Reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/Resize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/Timer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/Util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/Video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/Webp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/flo_Reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/pascal_colormap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Util/python_pfm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/YoutubeObjects/YoutubeObjectsFull_oneshot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/YoutubeObjects/YoutubeObjects_oneshot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/YoutubeObjects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/negative_actor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/negative_critic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_vgg19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parameter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/positive_actor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/positive_critic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-    </list>
+    <list default="true" id="45515dd5-71e7-43e8-9962-142bd6c7eae5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -607,7 +531,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NetworkOutputLayers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1914">
+            <state relative-caret-position="-1653">
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -629,11 +553,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Forwarding/OnlineAdaptingForwarder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-748">
-              <caret line="400" column="10" selection-start-line="400" selection-start-column="10" selection-end-line="400" selection-end-column="10" />
+            <state relative-caret-position="7343">
+              <caret line="499" selection-start-line="499" selection-end-line="499" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -650,11 +574,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+            <state relative-caret-position="122">
+              <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+              <folding>
+                <marker date="1583754775690" expanded="true" signature="562:564" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -768,6 +695,11 @@
               <item name="T6" type="b2602c69:ProjectViewProjectNode" />
               <item name="T6" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="T6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T6" type="462c0819:PsiDirectoryNode" />
+              <item name="Forwarding" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -776,7 +708,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VGG/VGG_4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -1304,29 +1236,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Forwarding/OnlineAdaptingForwarder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="400" column="10" selection-start-line="400" selection-start-column="10" selection-end-line="400" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parameter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NetworkOutputLayers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1914">
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1342,8 +1255,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        <state relative-caret-position="122">
+          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+          <folding>
+            <marker date="1583754775690" expanded="true" signature="562:564" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetworkOutputLayers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1653">
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Forwarding/OnlineAdaptingForwarder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7343">
+          <caret line="499" selection-start-line="499" selection-end-line="499" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
