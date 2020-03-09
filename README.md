@@ -18,7 +18,7 @@ Please refer to [OnAVOS](https://github.com/Stocastico/OnAVOS) to install the en
 
 ## Training
 
-Train ARG with ground-truth annotation:
+Train ARG on DAVIS 2016:
 
 ```bash
 python ./train.py
@@ -26,7 +26,7 @@ python ./train.py
 
 ## Evaluation
 
-Evaluate ARG with ground-truth annotation:
+Evaluate ARG on DAVIS 2016:
 
 ```bash
 python ./eval.py configs/DAVIS16_online
