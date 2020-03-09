@@ -25,8 +25,13 @@ def init_log(config):
 
 def main(_):
 
+<<<<<<< HEAD
   numpy.random.seed(300)
   tf.set_random_seed(300)
+=======
+  #numpy.random.seed(300)
+  #tf.set_random_seed(300)
+>>>>>>> 1f482adf942d5479b99a739478b3da6afcc1386a
 
   assert len(sys.argv) == 2, "usage: main.py <config>"
   config_path = sys.argv[1]
