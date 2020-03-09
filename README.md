@@ -20,7 +20,7 @@ Please refer to [OnAVOS](https://github.com/Stocastico/OnAVOS) to install the en
 Train ARG with ground-truth annotation:
 
 ```bash
-python ./train.py configs/DAVIS16_online
+python ./train.py
 ```
 
 ## Evaluation
