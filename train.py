@@ -10,8 +10,9 @@ from new_vgg19 import *
 
 def _get_reward(iou):
 
-  # r = iou  * 1000
-  r = iou * iou * 5000
+  
+  #r = iou * iou * 5000 
+  r = iou + 1
   return r
 
 def get_mean_list(l):
