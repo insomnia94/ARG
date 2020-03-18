@@ -14,7 +14,7 @@ Check our [paper](https://arxiv.org/pdf/1909.12482.pdf) for more details.
 
 ## Installation
 
-Please refer to [OnAVOS](https://github.com/Stocastico/OnAVOS) to install the environment of the benchmark method.
+Please refer to [OnAVOS](https://github.com/Stocastico/OnAVOS) to prepare related dataset and install the environment of the benchmark method.
 
 ## Training
 
