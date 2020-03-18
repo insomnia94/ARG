@@ -7,20 +7,19 @@ from actor import *
 from critic import *
 from new_vgg19 import *
 
-
-def _get_reward(iou):
-
-  
-  #r = iou * iou * 5000 
-  r = iou + 1
-  return r
-
 def get_mean_list(l):
   s = 0
   for i in l:
     s += i
   return s/len(l)
 
+def _get_reward(iou):
+  #r = iou * iou * 5000 
+  if iou > 0.1
+    r = iou + 1
+  else:
+    r = -1
+  return r
 
 # the times of update
 count = 0
