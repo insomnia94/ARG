@@ -1,11 +1,3 @@
-# Tensorflow Implementation of ARG
-
-## Introduction
-
-This repository is Tensorflow implementation of Adaptive ROI Generation for Video Object Segmentation Using Reinforcement Learning.
-
-Check our [paper](https://arxiv.org/pdf/1909.12482.pdf) for more details.
-
 ## Prerequisites
 
 * Python 3.6
