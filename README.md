@@ -25,16 +25,6 @@ python ./eval.py configs/DAVIS16_online
 ```
 
 
-## Citation
-
-    @article{sun2019adaptive,
-    title={Adaptive ROI Generation for Video Object Segmentation Using Reinforcement Learning},
-    author={Sun, Mingjie and Xiao, Jimin and Lim, Eng Gee and Xie, Yanchu and Feng, Jiashi},
-    journal={arXiv preprint arXiv:1909.12482},
-    year={2019}
-    }
-
-
 ## Acknowledgement
 
 Thanks for the work of [Voigtlaender Paul](https://www.vision.rwth-aachen.de/person/197/). Our code is based on the implementation of [OnAVOS](https://github.com/Stocastico/OnAVOS).
